@@ -94,8 +94,9 @@ Here are the few personal assets you should drop in before sharing:
 
 1. **Profile Picture**:
    - Place your real headshot / photo in `assets/profile.jpg` (or change the file extension in `index.html` line 102). A square crop (at least 600x600 px) is recommended.
-2. **CV / Resume**:
-   - Place your compiled PDF in `assets/CV_Tammaro_Edoardo.pdf`. Both "Download CV" buttons (in the About and Contact sections) will immediately link to it.
+2. **CV & Tesi Triennale PDF**:
+   - Salva il tuo CV compilato in: `assets/CV_Tammaro_Edoardo.pdf`
+   - Salva il PDF della tua tesi triennale in: `assets/Tesi_Triennale_Tammaro_Edoardo.pdf` (il pulsante "Read Thesis (.pdf)" nella sezione Projects e il link nella sezione Education punteranno subito al file).
 3. **LinkedIn Profile**:
    - Tuo profilo LinkedIn configurato: `https://www.linkedin.com/in/edoardo-tammaro-3a20361b5/`
    - Telefono: `+39 3888834242` e Email: `edutammaro@gmail.com` già integrati nella sezione Contact.

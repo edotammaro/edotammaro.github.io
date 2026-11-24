@@ -16,13 +16,12 @@ function initTheme() {
   const themeToggle = document.getElementById('themeToggle');
   const html = document.documentElement;
   
-  // Check persisted preference or system default
+  // Default is light (clean, white and sky blue)
   const savedTheme = localStorage.getItem('theme');
   if (savedTheme) {
     html.setAttribute('data-theme', savedTheme);
   } else {
-    // Default is dark as requested
-    html.setAttribute('data-theme', 'dark');
+    html.setAttribute('data-theme', 'light');
   }
 
   updateThemeIcon();
