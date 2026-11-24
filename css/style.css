@@ -591,11 +591,11 @@ img {
 .profile-card {
   position: relative;
   background: var(--bg-card);
-  padding: 1.25rem;
+  padding: 1rem;
   border-radius: var(--radius-md);
   border: 1px solid var(--border-color);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.45);
-  max-width: 360px;
+  max-width: 270px;
   width: 100%;
 }
 

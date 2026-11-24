@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initNavigation();
   initScrollSpy();
   initScrollReveal();
-  initLinkedInPlaceholder();
 });
 
 /* --- 1. Theme Toggle (Dark / Light) --- */
@@ -196,16 +195,4 @@ function initScrollReveal() {
   revealElements.forEach(el => revealObserver.observe(el));
 }
 
-/* --- 6. LinkedIn Link Handler for Placeholder --- */
-function initLinkedInPlaceholder() {
-  const linkedinBtn = document.getElementById('linkedinBtn');
-  if (linkedinBtn) {
-    linkedinBtn.addEventListener('click', (e) => {
-      const href = linkedinBtn.getAttribute('href');
-      if (href === '#' || href === '') {
-        e.preventDefault();
-        alert('LinkedIn profile URL pending update in index.html (search for id="linkedinBtn").');
-      }
-    });
-  }
-}
+

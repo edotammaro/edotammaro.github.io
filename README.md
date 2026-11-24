@@ -97,10 +97,8 @@ Here are the few personal assets you should drop in before sharing:
 2. **CV / Resume**:
    - Place your compiled PDF in `assets/CV_Tammaro_Edoardo.pdf`. Both "Download CV" buttons (in the About and Contact sections) will immediately link to it.
 3. **LinkedIn Profile**:
-   - In `index.html`, locate the button with `id="linkedinBtn"` (around line 431) and update `href="#"` to your real LinkedIn profile URL:
-     ```html
-     <a href="https://www.linkedin.com/in/YOUR_USERNAME" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-lg" id="linkedinBtn">
-     ```
+   - Tuo profilo LinkedIn configurato: `https://www.linkedin.com/in/edoardo-tammaro-3a20361b5/`
+   - Telefono: `+39 3888834242` e Email: `edutammaro@gmail.com` già integrati nella sezione Contact.
 4. **Additional Project Repositories**:
    - As you publish new repositories or thesis materials, update the links in the `<section id="projects">` cards.
 
